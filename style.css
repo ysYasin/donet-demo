@@ -5,6 +5,69 @@
 
 }
 
+.cards {
+    background: antiquewhite;
+    box-shadow: 5px 5px 10px #78787842;
+}
+
+.cards2 {
+    background: #f900dc33;
+    box-shadow: 5px 5px 10px #78787842;
+}
+
+.cards3 {
+    background: rgba(5, 234, 230, 0.369);
+    box-shadow: 5px 5px 10px #78787842;
+}
+
+.cards img {
+    margin: 80px 31px 10px;
+    background: aliceblue;
+}
+
+.cards2 img {
+    margin: 80px 31px 10px;
+    background: aliceblue;
+}
+
+.cards3 img {
+    margin: 80px 31px 10px;
+    background: aliceblue;
+}
+
+.cards h2 {
+    margin: 1px 20px 5px 25px;
+}
+
+.cards2 h2 {
+    margin: 1px 20px 5px 25px;
+}
+
+.cards3 h2 {
+    margin: 1px 20px 5px 25px;
+}
+
+.cards p {
+    font-size: 17px;
+    text-align: left;
+    padding: 10px;
+    margin: 1px 20px 14px 25px;
+}
+
+.cards2 p {
+    font-size: 17px;
+    text-align: left;
+    padding: 10px;
+    margin: 1px 20px 14px 25px;
+}
+
+.cards3 p {
+    font-size: 17px;
+    text-align: left;
+    padding: 10px;
+    margin: 1px 20px 14px 25px;
+}
+
 a.donetButton {
     text-decoration: none;
     color: white;
@@ -100,9 +163,35 @@ a.donetButton {
     margin: 20px 0 20px 0;
     font-size: 20px;
     outline: none;
+    text-align: center;
 }
 
 .button-margin {
     align-items: center;
     justify-content: center;
+}
+
+.donet-plan {
+    width: 80%;
+    margin: auto;
+}
+
+.donet-plan h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.donet-plan-p {
+    text-align: center;
+    font-size: 18px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.mother-of-card {
+    display: flex;
+    gap: 39px;
 }
