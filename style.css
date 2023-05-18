@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    text-transform: capitalize;
 
 }
 
@@ -44,4 +45,64 @@ a.donetButton {
     position: absolute;
     height: 669px;
     width: 100%;
+}
+
+.DonetOption {
+    width: 765px;
+    height: 486.5px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.DonetOption h2 {
+    padding: 30px;
+    font-size: 45px;
+}
+
+.DonetOption p {
+    font-size: 17px;
+    padding: 10px 20px 20px 20px;
+}
+
+.amount-list {
+    margin-bottom: 40px;
+}
+
+.amount-list ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+
+}
+
+.amount-list li {
+    font-size: 20px;
+    padding: 35px;
+    font-weight: 600;
+    width: 150px;
+    border-radius: 4px;
+    background: #9695952b;
+    box-shadow: 2px 2px 10px #7c7b7b81;
+}
+
+#amount_highlight {
+    background: #ff634714;
+    border: 2px solid tomato;
+    border-radius: 5px;
+}
+
+#edit-amount {
+    border: none;
+    background: #00000000;
+    border-bottom: 1px solid black;
+    display: block;
+    width: 100%;
+    margin: 20px 0 20px 0;
+    font-size: 20px;
+    outline: none;
+}
+
+.button-margin {
+    align-items: center;
+    justify-content: center;
 }
