@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Montserrat&family=Oswald&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -91,6 +94,24 @@ a.donetButton {
     background: tomato;
     border-radius: 6px;
     font-weight: 600;
+}
+
+.subscribeButton {
+    text-decoration: none;
+    color: white;
+    padding: 12px 25px;
+    font-size: 20px;
+    background: tomato;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 52px;
+    background: #fa6b6b35;
 }
 
 .head-text-box h2 {
@@ -223,4 +244,35 @@ a.donetButton {
     width: 583px;
     margin: 50px 0;
     border-radius: 10px;
+}
+
+.subscribe-Sec {
+    width: 80%;
+    margin: 0 auto 100px;
+    text-align: center;
+}
+
+input#send-email {
+    border: navajowhite;
+    font-size: 20px;
+    width: 376px;
+    height: 51px;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+}
+
+footer {
+    height: 200px;
+    background: #000;
+    text-align: center;
+    color: #bd350b;
+    padding: 30px;
+    line-height: 30px;
+}
+
+footer h3 {
+    font-size: 30px;
+    padding: 20px;
+    font-family: 'Lobster', cursive;
 }
