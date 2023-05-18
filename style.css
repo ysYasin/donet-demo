@@ -5,6 +5,21 @@
 
 }
 
+.news {
+    padding: 50px;
+    color: #716a63;
+}
+
+.news p {
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.news h2 {
+    font-size: 35px;
+    line-height: 80px;
+}
+
 .cards {
     background: antiquewhite;
     box-shadow: 5px 5px 10px #78787842;
@@ -71,9 +86,11 @@
 a.donetButton {
     text-decoration: none;
     color: white;
-    padding: 12px 30px;
+    padding: 20px 33px;
+    font-size: 20px;
     background: tomato;
     border-radius: 6px;
+    font-weight: 600;
 }
 
 .head-text-box h2 {
@@ -173,7 +190,7 @@ a.donetButton {
 
 .donet-plan {
     width: 80%;
-    margin: auto;
+    margin: 100px auto;
 }
 
 .donet-plan h1 {
@@ -194,4 +211,16 @@ a.donetButton {
 .mother-of-card {
     display: flex;
     gap: 39px;
+}
+
+.newsSec {
+    width: 80%;
+    margin: 0 auto 100px;
+    display: flex;
+}
+
+.news-img img {
+    width: 583px;
+    margin: 50px 0;
+    border-radius: 10px;
 }
